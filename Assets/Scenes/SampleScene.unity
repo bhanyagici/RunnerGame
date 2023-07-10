@@ -366,7 +366,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraTarget: {fileID: 827978356}
-  sSpeed: 10
+  sSpeed: 6
   distance: {x: 0, y: 3.7, z: -6}
   lookTarget: {fileID: 1883617786}
 --- !u!1 &1030209055
