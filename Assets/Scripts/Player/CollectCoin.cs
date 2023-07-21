@@ -9,6 +9,7 @@ public class CollectCoin : MonoBehaviour
         if (other.CompareTag("Coin"))
         {
             Destroy(other.gameObject);
+            Debug.Log(other.gameObject.name);
         }
     }
 }
