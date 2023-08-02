@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
-using UnityEngine.SceneManagement;
+using TMPro; //TextMeshPro'ya ulaþabilmemizi saðlýyor.
+using UnityEngine.SceneManagement;// Sahnelere ulaþabilmemizi saðlýyor.
 
 public class CollectCoin : MonoBehaviour
 {
@@ -31,6 +31,7 @@ public class CollectCoin : MonoBehaviour
         if (collision.gameObject.CompareTag("Collision"))
         {
             Debug.Log("Touched Obstacle!..");
+            //Sahnenin yemiden baþlatýlmasýný saðlýyor.
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
